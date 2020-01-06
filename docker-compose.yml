@@ -1,0 +1,9 @@
+version: '3.2'
+
+services:
+  redoc:
+    build: .
+    ports:
+      - "8081:80"
+    environment:
+      URLS: "[{url: 'https://petstore.swagger.io/v2/swagger.json', name: 'Petshop'},{url: 'https://api.apis.guru/v2/specs/instagram.com/1.0.0/swagger.yaml', name: 'Instagram'}]"

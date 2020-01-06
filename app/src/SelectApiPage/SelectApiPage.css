@@ -1,0 +1,20 @@
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.search-wrapper img {
+  max-width: 90%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+.search-wrapper .select__api {
+  max-width: 80vw;
+  width: 500px;
+  margin: 50px auto;
+}
