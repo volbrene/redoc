@@ -30,5 +30,7 @@ This image uses environment variables for configuration.
 ## You prefer swagger ui?
 
 No Problem. Hier is the project for all, who loves swagger ui:
+
 [Link to Dockerhub](https://hub.docker.com/r/volbrene/swagger-ui)
+
 [Link to Github](https://hub.docker.com/r/volbrene/swagger-ui)
