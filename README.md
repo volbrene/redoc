@@ -1,5 +1,4 @@
-Redoc with multi api support
-===
+# Redoc with multi api support
 
 This docker image support redoc >2.0 with multi select apis.
 
@@ -18,14 +17,18 @@ docker run -d \
 
 That's it.
 
-
 ## Environment variables
 
 This image uses environment variables for configuration.
 
 | Available variables | Default value                                                                                                                                   | Description              |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
 | `URLS`              | [{url: 'https://petstore.swagger.io/v2/swagger.json', name: 'Petshop'},{url: 'https://petstore.swagger.io/v2/swagger.json', name: 'Petshop 2'}] | List of api swagger docs |
 | `THEME_COLOR`       | #32329f                                                                                                                                         | Primary Color            |
 | `PAGE_TITLE`        | Redoc                                                                                                                                           | Page Title of docs       |
 
+## You prefer swagger ui?
+
+No Problem. Hier is the project for all, who loves swagger ui:
+[Link to Dockerhub](https://hub.docker.com/r/volbrene/swagger-ui)
+[Link to Github](https://hub.docker.com/r/volbrene/swagger-ui)
