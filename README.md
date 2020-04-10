@@ -6,12 +6,24 @@ Demo: [Link to demo](https://demo.redoc.volbrene.de)
 
 Dockerhub: [Link to Dockerhub](https://hub.docker.com/r/volbrene/redoc)
 
-# How to use?
+# How to use with external urls?
 
 ```console
 docker run -d \
     -p 8080:80 \
     -e URLS="[{url: 'https://petstore.swagger.io/v2/swagger.json', name: 'Petshop'},{url: 'https://api.apis.guru/v2/specs/instagram.com/1.0.0/swagger.yaml', name: 'Instagram'}]" \
+     volbrene/redoc
+```
+
+That's it.
+
+# How to use with local files?
+
+```console
+docker run -d \
+    -p 8080:80 \
+    -v $(pwd)/swagger-files:/var/www/html/static/swagger-files \
+    -e URLS="[{url: '/static/swagger-files/petstore.json', name: 'Petshop'},{url: 'https://api.apis.guru/v2/specs/instagram.com/1.0.0/swagger.yaml', name: 'Instagram'}]" \
      volbrene/redoc
 ```
 
