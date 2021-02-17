@@ -5,5 +5,6 @@ window._env_ = {
         {url: 'https://api.apis.guru/v2/specs/ably.io/1.1.0/openapi.json', name: 'Ably'},
         {url: 'https://api.apis.guru/v2/specs/airport-web.appspot.com/v1/swagger.json', name: 'Airport'}
     ],
-    THEME_COLOR: '#32329f'
+    THEME_COLOR: '#32329f',
+    BASE_NAME: ''
 }

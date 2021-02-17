@@ -15,6 +15,10 @@ if [ -n "${THEME_COLOR}" ]; then
  echo "THEME_COLOR: '${THEME_COLOR}'," >> /var/www/html/config.js
 fi
 
+if [ -n "${BASE_NAME}" ]; then
+ echo "BASE_NAME: '${BASE_NAME}'," >> /var/www/html/config.js
+fi
+
 echo "}" >> /var/www/html/config.js
 
 sed -i -e "s@%PAGE_TITLE%@$PAGE_TITLE@g" /var/www/html/index.html
