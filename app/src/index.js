@@ -8,7 +8,7 @@ import SelectApiPage from './SelectApiPage/SelectApiPage';
 import AppFooter from './AppFooter/AppFooter';
 
 ReactDOM.render((
-  <Router>
+  <Router basename={window._env_.BASE_NAME}>
     <div>
       <Route exact path="/" component={SelectApiPage} />
       <Route path="/:api" component={RedocPage} />
