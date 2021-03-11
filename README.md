@@ -4,6 +4,10 @@ This docker image support redoc >2.0 with multi select apis.
 
 Dockerhub: [Link to Dockerhub](https://hub.docker.com/r/volbrene/redoc)
 
+# Demo
+
+![](demo.gif)
+
 # How to use with external urls?
 
 ```console
