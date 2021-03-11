@@ -2,8 +2,6 @@
 
 This docker image support redoc >2.0 with multi select apis.
 
-Demo: [Link to demo](https://demo.redoc.volbrene.de)
-
 Dockerhub: [Link to Dockerhub](https://hub.docker.com/r/volbrene/redoc)
 
 # How to use with external urls?
