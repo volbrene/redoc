@@ -1,6 +1,7 @@
-# Redoc with multi api support
+# ReDoc with multi API support
+[![Docker Pulls](https://img.shields.io/docker/pulls/volbrene/redoc.svg)](https://hub.docker.com/r/volbrene/redoc/) [![Docker Stars](https://img.shields.io/docker/stars/volbrene/redoc.svg)](https://hub.docker.com/r/volbrene/redoc/) [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/volbrene/redoc/blob/master/LICENSE)
 
-This docker image support redoc >2.0 with multi select apis.
+This Docker image support ReDoc >2.0 with multi select APIs.
 
 Dockerhub: [Link to Dockerhub](https://hub.docker.com/r/volbrene/redoc)
 
@@ -42,10 +43,10 @@ This image uses environment variables for configuration.
 | `PAGE_TITLE`        | Redoc                                                                                                                                           | Page Title of docs                                                                               |
 | `BASE_NAME`         | '' -> (no prefix)                                                                                                                               | `basename` prop for the top-level [BrowserRouter](https://reactrouter.com/web/api/BrowserRouter) |
 
-## You prefer swagger ui?
+## You prefer Swagger UI?
 
 No Problem. Hier is the project for all, who loves swagger ui:
 
 [Link to Dockerhub](https://hub.docker.com/r/volbrene/swagger-ui)
 
-[Link to Github](https://hub.docker.com/r/volbrene/swagger-ui)
+[Link to Github](https://github.com/volbrene/swagger-ui)
