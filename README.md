@@ -1,7 +1,7 @@
 # ReDoc with multi API support
 [![Docker Pulls](https://img.shields.io/docker/pulls/volbrene/redoc.svg)](https://hub.docker.com/r/volbrene/redoc/) [![Docker Stars](https://img.shields.io/docker/stars/volbrene/redoc.svg)](https://hub.docker.com/r/volbrene/redoc/) [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/volbrene/redoc/blob/master/LICENSE)
 
-This Docker image support ReDoc >2.0 with multi select APIs.
+This Docker image supports ReDoc >2.0 with multi select APIs.
 
 Dockerhub: [Link to Dockerhub](https://hub.docker.com/r/volbrene/redoc)
 
@@ -47,6 +47,6 @@ This image uses environment variables for configuration.
 
 No Problem. Hier is the project for all, who loves swagger ui:
 
-[Link to Dockerhub](https://hub.docker.com/r/volbrene/swagger-ui)
+[Link to Docker Hub](https://hub.docker.com/r/volbrene/swagger-ui)
 
-[Link to Github](https://github.com/volbrene/swagger-ui)
+[Link to GitHub](https://github.com/volbrene/swagger-ui)
