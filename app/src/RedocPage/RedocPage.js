@@ -11,7 +11,11 @@ class RedocPage extends Component {
     super(props);
 
     this.state = {
-      availableApis: window._env_.URLS.map(item => ({ value: slugify(item.name).toLowerCase(), label: item.name, url: item.url })),
+      availableApis: window._env_.URLS.map(item => ({
+        value: slugify(item.name).toLowerCase(),
+        label: item.displayName || item.name,
+        url: item.url
+      })),
       activeApi: {
         url: ''
       }

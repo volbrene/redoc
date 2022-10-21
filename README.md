@@ -32,6 +32,19 @@ docker run -d \
 
 That's it.
 
+# Decouple the api's name from the url path
+
+The url pointing to a specific api uses the ```name``` value by default. In case you want to decouple the url path from the display name use the ```displayName``` attribute.
+
+```console
+docker run -d \
+    -p 8080:80 \
+    -e URLS="[{url: 'https://petstore.swagger.io/v2/swagger.json', name: 'petshop', displayName: '(public) Petshop'},{url: 'https://api.apis.guru/v2/specs/instagram.com/1.0.0/swagger.yaml', name: 'instagram', displayName: '(internal) Instagram'}]" \
+     volbrene/redoc
+```
+
+That's it.
+
 ## Environment variables
 
 This image uses environment variables for configuration.
