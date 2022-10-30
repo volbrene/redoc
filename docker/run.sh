@@ -23,5 +23,13 @@ echo "}" >> /var/www/html/config.js
 
 sed -i -e "s@%PAGE_TITLE%@$PAGE_TITLE@g" /var/www/html/index.html
 
+if [ -n "${BASIC_AUTH_USER}" ] && [ -n "${BASIC_AUTH_PWD}" ]; then
+ # create htpasswd by openssl
+ printf "$BASIC_AUTH_USER:$(openssl passwd -crypt $BASIC_AUTH_PWD)\n" >>/home/htpasswd
+ # change nginx config file
+ cd /etc/nginx/conf.d
+ mv default_auth.conf default.conf
+fi
+
 # start nginx
 nginx -g "daemon off;"
