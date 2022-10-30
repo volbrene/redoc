@@ -37,11 +37,13 @@ That's it.
 This image uses environment variables for configuration.
 
 | Available variables | Default value                                                                                                                                   | Description                                                                                      |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| ------------------- |-------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | `URLS`              | [{url: 'https://petstore.swagger.io/v2/swagger.json', name: 'Petshop'},{url: 'https://petstore.swagger.io/v2/swagger.json', name: 'Petshop 2'}] | List of api swagger docs                                                                         |
 | `THEME_COLOR`       | #32329f                                                                                                                                         | Primary Color                                                                                    |
 | `PAGE_TITLE`        | Redoc                                                                                                                                           | Page Title of docs                                                                               |
 | `BASE_NAME`         | '' -> (no prefix)                                                                                                                               | `basename` prop for the top-level [BrowserRouter](https://reactrouter.com/web/api/BrowserRouter) |
+| `BASIC_AUTH_USER`   | not support                                                                                                                                     | Basic authentication username                                                                    |
+| `BASIC_AUTH_PWD`    | not support                                                                                                                                     | Basic authentication password                                                                    |
 
 ## You prefer Swagger UI?
 
